@@ -1,4 +1,14 @@
 
 \.vscode/
+*_N.txt
+*normalmap.txt
+*normal.txt
+*_normals.txt
+*ssbump.txt
+*.vmat
+*.vm at
 *.tga
 *.png
+*.pfm
+*.json
+*.vtex
