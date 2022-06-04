@@ -1,0 +1,48 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_simple_2way_blend.vfx"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Fade ----
+	g_flFadeExponent "1.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Mask ----
+	TextureMask "materials/brick/hr_brick/inferno/flagstone_d_blend_g_mask.tga"
+
+	//---- Material A ----
+	g_flMetalnessA "0.000"
+	TextureColorA "materials/plaster/hr_p/inferno/plaster_a.tga"
+	TextureNormalA "materials/plaster/hr_p/inferno/plaster_a_normals.tga"
+	TextureRoughnessA "materials/plaster/hr_p/venice/venice_plaster_6_normal_a-1_rough.tga"
+
+	//---- Material B ----
+	g_flMetalnessB "0.000"
+	g_vTexCoordScale2 "[1.000 1.000]"
+	TextureColorB "materials/brick/hr_brick/inferno/brick_i.tga"
+	TextureNormalB "materials/brick/hr_brick/inferno/brick_i_normals.tga"
+	TextureRoughnessB "materials/default/default_rough_s1import.tga"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties "concrete"
+	}
+}

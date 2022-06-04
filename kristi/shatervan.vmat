@@ -1,0 +1,74 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_tarps.vfx"
+
+	//---- Translucent ----
+	F_TRANSLUCENT 1
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "materials/kristi/water.tga"
+
+	//---- Animation ----
+	AnimationTexture "materials/default/default.tga"
+	AnimationTexture "materials/default/default.tga"
+	FreedomOfMotionTexture "materials/kristi/water.tga"
+	g_flAmplitude "1.000"
+	g_flSpatialFrequency "0.000"
+	g_flSpeed "3.500"
+	ReverseMotionMask "materials/default/default.tga"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[0.615686 0.580392 0.352941 1.000000]"
+	TextureColor "materials/default/default_color.tga"
+
+	//---- Fade ----
+	g_flFadeExponent "1.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Metalness ----
+	g_flMetalness "1.000"
+
+	//---- Normal ----
+	TextureNormal "materials/kristi/water_normal.tga"
+
+	//---- Roughness ----
+	TextureRoughness "materials/kristi/water_moving.tga"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[-0.001 -0.015]"
+
+	//---- Translucent ----
+	g_flOpacityScale "1.000"
+	TextureTranslucency "materials/kristi/water.tga"
+
+	Attributes
+	{
+		$envmap "env_cubemap"
+	}
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties "world.water"
+		WorldMappingWidth "256"
+		WorldMappingHeight "256"
+	}
+
+	DynamicParams
+	{
+		g_flSpeed "3+(((sin(time()-5.4))-(sin(time()-6))) * 0.00003)"
+		g_vTexCoordOffset "-sin(time()/9)*0.006;"
+	}
+}
