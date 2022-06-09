@@ -25,10 +25,10 @@ Layer0
 	g_flMetalnessA "0.000"
 	TextureColorA "materials/cobblestone/hr_c/inferno/cobblestone_b.tga"
 	TextureNormalA "materials/cobblestone/hr_c/inferno/cobblestone_b_normals.tga"
-	TextureRoughnessA "materials/default/default_rough_s1import.tga"
+	TextureRoughnessA "materials/cobblestone/hr_c/inferno/cobblestone_b_rough.tga"
 
 	//---- Material B ----
-	g_flMetalnessB "0.000"
+	g_flMetalnessB "0.145"
 	g_vTexCoordScale2 "[1.000 1.000]"
 	TextureColorB "materials/nature/hr_c/hr_dirt_001_color.tga"
 	TextureNormalB "materials/nature/dirtfloor011a_normal.tga"
