@@ -7,6 +7,8 @@
 *.vpost
 *.zip
 *.7z
+!.how to.txt
+!custom_resources.txt
 !ar_dizzy/dizzy_drywall_back_color.vmat
 !brick/hr_brick/inferno/brick_a.vmat
 !brick/hr_brick/inferno/brick_d.vmat
@@ -201,3 +203,12 @@
 !tile/tileroof003a_normal_a-1_rough.txt
 !tile/hr_t/inferno/herringbone_b_normals_a-1_rough.txt
 !tile/hr_t/inferno/trim_set_b_normals_a-1_rough.txt
+!models/props/de_inferno/hr_i/cypress_a/bark_a.vmat
+!models/props_foliage/urban_trees_barks01.vmat
+!models/props_foliage/urban_trees_barks01_medium.vmat
+!models/props_foliage/urban_trees_branches03_medium.vmat
+!models/props/de_inferno/hr_i/barrel_a/barrel_a.txt
+!models/props/de_inferno/hr_i/cypress_a/cypress_a.txt
+!models/props/de_inferno/hr_i/cypress_a/cypress_a_env.txt
+!models/props/de_inferno/hr_i/cypress_a/cypress_a_env_l-1_rough.txt
+!models/props_foliage/urban_trees_barks01.txt

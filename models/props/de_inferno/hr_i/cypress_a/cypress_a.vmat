@@ -8,7 +8,7 @@ Layer0
 	F_FOLIAGE_ANIMATION 4 // Simple Wind
 
 	//---- PBR ----
-	F_SPECULAR 1
+	F_TRANSMISSIVE_BACKFACE_NDOTL 1
 
 	//---- Rendering ----
 	F_RENDER_BACKFACES 1
@@ -19,7 +19,7 @@ Layer0
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionDirectDiffuse "0.000"
 	g_flAmbientOcclusionDirectSpecular "0.000"
-	TextureAmbientOcclusion "materials/default/default_ao.tga"
+	TextureAmbientOcclusion "materials/models/props/de_inferno/hr_i/cypress_a/cypress_a_env_l-1_rough.tga"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
@@ -45,13 +45,13 @@ Layer0
 	g_flDirectionalLightmapStrength "1.000"
 
 	//---- Metalness ----
-	g_flMetalness "0.000"
+	g_flMetalness "0.267"
 
 	//---- Normal ----
 	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Roughness ----
-	TextureRoughness "materials/models/props/de_inferno/hr_i/cypress_a/cypress_a_env_l-1_rough.tga"
+	TextureRoughness "materials/models/props/de_inferno/hr_i/cypress_a/cypress_a_env.tga"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
@@ -64,4 +64,7 @@ Layer0
 	g_flAlphaTestReference "0.350"
 	g_flAntiAliasedEdgeStrength "1.000"
 	TextureTranslucency "materials/models/props/de_inferno/hr_i/cypress_a/cypress_a_a_trans.tga"
+
+	//---- Transmission ----
+	TextureTransmissiveColor "[0.000000 0.027451 0.015686 0.000000]"
 }
