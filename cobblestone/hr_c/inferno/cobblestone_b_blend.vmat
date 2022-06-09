@@ -31,7 +31,7 @@ Layer0
 	g_flMetalnessB "0.000"
 	g_vTexCoordScale2 "[1.000 1.000]"
 	TextureColorB "materials/nature/hr_c/hr_dirt_001_color.tga"
-	TextureNormalB "materials/brick/hr_brick/inferno/empty_normals.tga"
+	TextureNormalB "materials/nature/dirtfloor011a_normal.tga"
 	TextureRoughnessB "materials/default/default_rough_s1import.tga"
 
 	//---- Texture Coordinates ----
