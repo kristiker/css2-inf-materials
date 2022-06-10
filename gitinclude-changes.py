@@ -23,14 +23,6 @@ if Path(".gitignore").is_file():
             includeFiles.append(file)
             if not file.exists():
                 included_but_missing.append(file)
-
-if Path("custom_resources.txt").is_file():
-    with Path("custom_resources.txt").open() as fp:
-        for line in fp.readlines():
-            line = line.strip()
-            custom_resource = Path(line)
-            if custom_resource not in includeFiles:
-                includeFiles.append(custom_resource)
         
     
 for vmat_file in here.glob("**/*.vmat"):
@@ -48,6 +40,13 @@ for txt_file in here.glob("**/*.txt"):
     if txt_file not in includeFiles:
         includeFiles.append(txt_file)
 
+if Path("custom_resources.txt").is_file():
+    with Path("custom_resources.txt").open() as fp:
+        for line in fp.readlines():
+            line = line.strip()
+            custom_resource = Path(line)
+            if custom_resource not in includeFiles:
+                includeFiles.append(custom_resource)
 
 with open(".gitignore", "w") as fp:
     fp.writelines(
