@@ -212,6 +212,7 @@
 !models/props/de_inferno/hr_i/cypress_a/cypress_a_env.txt
 !models/props/de_inferno/hr_i/cypress_a/cypress_a_env_l-1_rough.txt
 !models/props_foliage/urban_trees_barks01.txt
+!concrete/hr_c/hr_conc_d_blend.vmat
 !brick/hr_brick/inferno/brick_i.vmat
 !plaster/hr_p/inferno/plaster_a_blend_g_rough.tga
 !metal/hr_metal/inferno/metal_ground_trim_ao.tga
@@ -220,4 +221,6 @@
 !cobblestone/hr_c/inferno/cobblestone_a_rough.tga
 !cobblestone/hr_c/inferno/cobblestone_a_ao.tga
 !brick/hr_brick/inferno/brick_i_rough.tga
+!brick/hr_brick/inferno/brick_f_rough.tga
 !de_inferno.vpost
+!models/props/de_inferno/hr_i/brick_corner_b/brick_f.vmat

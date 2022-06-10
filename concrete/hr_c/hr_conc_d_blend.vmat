@@ -23,16 +23,16 @@ Layer0
 
 	//---- Material A ----
 	g_flMetalnessA "0.000"
-	TextureColorA "materials/brick/hr_brick/inferno/brick_f1.tga"
-	TextureNormalA "materials/brick/hr_brick/inferno/brick_f_normals.tga"
-	TextureRoughnessA "materials/brick/hr_brick/inferno/brick_f_rough.tga"
+	TextureColorA "materials/concrete/hr_c/hr_conc_d.tga"
+	TextureNormalA "materials/concrete/hr_c/hr_conc_d_normals.tga"
+	TextureRoughnessA "materials/default/default_rough_s1import.tga"
 
 	//---- Material B ----
-	g_flMetalnessB "0.000"
+	g_flMetalnessB "0.194"
 	g_vTexCoordScale2 "[1.000 1.000]"
-	TextureColorB "materials/plaster/hr_p/inferno/plaster_i.tga"
-	TextureNormalB "materials/plaster/hr_p/inferno/plaster_a_normals.tga"
-	TextureRoughnessB "materials/plaster/hr_p/venice/venice_plaster_6_normal_a-1_rough.tga"
+	TextureColorB "materials/brick/hr_brick/inferno/brick_f1.tga"
+	TextureNormalB "materials/brick/hr_brick/brick_f2_normals.tga"
+	TextureRoughnessB "materials/brick/hr_brick/inferno/brick_f_rough.tga"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
@@ -43,6 +43,6 @@ Layer0
 
 	SystemAttributes
 	{
-		PhysicsSurfaceProperties "brick"
+		PhysicsSurfaceProperties "concrete"
 	}
 }
