@@ -4,6 +4,9 @@ Layer0
 {
 	shader "vr_simple_2way_blend.vfx"
 
+	//---- Enable Ambient Occlusion ----
+	F_ENABLE_AMBIENT_OCCLUSION 1
+
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
@@ -22,7 +25,8 @@ Layer0
 	TextureMask "materials/brick/hr_brick/inferno/flagstone_d_blend_g_mask.tga"
 
 	//---- Material A ----
-	g_flMetalnessA "0.000"
+	g_flMetalnessA "0.103"
+	TextureAmbientOcclusionA "materials/brick/hr_brick/inferno/brick_f_rough.tga"
 	TextureColorA "materials/brick/hr_brick/inferno/brick_f1.tga"
 	TextureNormalA "materials/brick/hr_brick/inferno/brick_f_normals.tga"
 	TextureRoughnessA "materials/brick/hr_brick/inferno/brick_f_rough.tga"
@@ -30,6 +34,7 @@ Layer0
 	//---- Material B ----
 	g_flMetalnessB "0.000"
 	g_vTexCoordScale2 "[1.000 1.000]"
+	TextureAmbientOcclusionB "materials/default/default_ao.tga"
 	TextureColorB "materials/plaster/hr_p/inferno/plaster_i.tga"
 	TextureNormalB "materials/plaster/hr_p/inferno/plaster_a_normals.tga"
 	TextureRoughnessB "materials/plaster/hr_p/venice/venice_plaster_6_normal_a-1_rough.tga"

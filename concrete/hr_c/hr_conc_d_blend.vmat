@@ -4,6 +4,9 @@ Layer0
 {
 	shader "vr_simple_2way_blend.vfx"
 
+	//---- Enable Ambient Occlusion ----
+	F_ENABLE_AMBIENT_OCCLUSION 1
+
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
@@ -23,13 +26,15 @@ Layer0
 
 	//---- Material A ----
 	g_flMetalnessA "0.000"
+	TextureAmbientOcclusionA "materials/default/default_ao.tga"
 	TextureColorA "materials/concrete/hr_c/hr_conc_d.tga"
 	TextureNormalA "materials/concrete/hr_c/hr_conc_d_normals.tga"
 	TextureRoughnessA "materials/concrete/hr_c/hr_conc_d_rough.tga"
 
 	//---- Material B ----
-	g_flMetalnessB "0.194"
+	g_flMetalnessB "0.103"
 	g_vTexCoordScale2 "[1.000 1.000]"
+	TextureAmbientOcclusionB "materials/brick/hr_brick/inferno/brick_f_rough.tga"
 	TextureColorB "materials/brick/hr_brick/inferno/brick_f1.tga"
 	TextureNormalB "materials/brick/hr_brick/brick_f2_normals.tga"
 	TextureRoughnessB "materials/brick/hr_brick/inferno/brick_f_rough.tga"

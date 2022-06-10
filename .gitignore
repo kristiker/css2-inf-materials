@@ -224,6 +224,9 @@
 !brick/hr_brick/inferno/flagstone_d.vmat
 !brick/hr_brick/inferno/flagstone_d.txt
 !brick/hr_brick/inferno/flagstone_d_normals.txt
+!models/props/de_inferno/hr_i/brick_corner_b/brick_f.vmat
+!brick/hr_brick/inferno/brick_g1_cheap.vmat
+!brick/hr_brick/inferno/brick_m_blend.vmat
 !plaster/hr_p/inferno/plaster_a_blend_g_rough.tga
 !metal/hr_metal/inferno/metal_ground_trim_ao.tga
 !models/props/de_inferno/hr_i/concrete_bags/concrete_bags_ao-1.tga
@@ -237,6 +240,3 @@
 !brick/hr_brick/inferno/flagstone_d_rough.tga
 !materials/concrete/hr_c/hr_conc_d_rough.tga
 !de_inferno.vpost
-!models/props/de_inferno/hr_i/brick_corner_b/brick_f.vmat
-!brick/hr_brick/inferno/brick_g1_cheap.vmat
-!brick/hr_brick/inferno/brick_m_blend.vmat
