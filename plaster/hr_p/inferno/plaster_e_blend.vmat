@@ -22,7 +22,7 @@ Layer0
 	TextureMask "materials/plaster/hr_p/inferno/plaster_a_blend_g_mask.tga"
 
 	//---- Material A ----
-	g_flMetalnessA "0.000"
+	g_flMetalnessA "0.041"
 	TextureColorA "materials/plaster/hr_p/inferno/plaster_e.tga"
 	TextureNormalA "materials/plaster/hr_p/inferno/plaster_a_normals.tga"
 	TextureRoughnessA "materials/plaster/hr_p/venice/venice_plaster_6_normal_a-1_rough.tga"

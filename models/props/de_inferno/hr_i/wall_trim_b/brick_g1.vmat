@@ -4,30 +4,26 @@ Layer0
 {
 	shader "vr_complex.vfx"
 
-	//---- Color ----
-	F_TINT_MASK 1
-
 	//---- Detail Texture ----
 	F_DETAIL_TEXTURE 1 // Mod2X
 
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionDirectDiffuse "0.000"
 	g_flAmbientOcclusionDirectSpecular "0.000"
-	TextureAmbientOcclusion "materials/default/default_ao.tga"
+	TextureAmbientOcclusion "materials/brick/hr_brick/inferno/brick_g_blend_ao.tga"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "materials/concrete/hr_c/hr_conc_d.tga"
-	TextureTintMask "materials/concrete/hr_c/hr_conc_d_a_mask.tga"
+	TextureColor "materials/brick/hr_brick/inferno/brick_g1.tga"
 
 	//---- Detail Texture ----
 	g_flDetailBlendFactor "1.000"
 	g_flDetailBlendToFull "0.000"
 	g_flDetailTexCoordRotation "0.000"
 	g_vDetailTexCoordOffset "[0.000 0.000]"
-	g_vDetailTexCoordScale "[1.000 1.000]"
-	TextureDetail "materials/models/props/de_inferno/hr_i/door_collection/door_collection_trim_a/door_trim_a_ao.tga"
+	g_vDetailTexCoordScale "[9.000 9.000]"
+	TextureDetail "materials/detail/plaster_detail_01.tga"
 	TextureDetailMask "materials/default/default_detailmask.tga"
 
 	//---- Fade ----
@@ -41,13 +37,13 @@ Layer0
 	g_flDirectionalLightmapStrength "1.000"
 
 	//---- Metalness ----
-	g_flMetalness "0.050"
+	g_flMetalness "0.000"
 
 	//---- Normal ----
 	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Roughness ----
-	TextureRoughness "materials/concrete/hr_c/hr_conc_d_rough.tga"
+	TextureRoughness "materials/brick/hr_brick/inferno/brick_g_blend_rough.tga"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
@@ -55,4 +51,9 @@ Layer0
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties "brick"
+	}
 }

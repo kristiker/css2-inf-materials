@@ -213,9 +213,17 @@
 !models/props/de_inferno/hr_i/cypress_a/cypress_a_env_l-1_rough.txt
 !models/props_foliage/urban_trees_barks01.txt
 !concrete/hr_c/hr_conc_d_blend.vmat
+!models/props/de_inferno/hr_i/wall_trim_b/brick_g1.vmat
+!wood/plywood02.vmat
 !brick/hr_brick/inferno/brick_g.txt
+!brick/hr_brick/inferno/empty_normals.txt
+!concrete/hr_c/hr_conc_d.txt
+!plaster/hr_p/inferno/plaster_i.txt
 !brick/hr_brick/inferno/brick_i.vmat
 !concrete/hr_c/hr_conc_d.vmat
+!brick/hr_brick/inferno/flagstone_d.vmat
+!brick/hr_brick/inferno/flagstone_d.txt
+!brick/hr_brick/inferno/flagstone_d_normals.txt
 !plaster/hr_p/inferno/plaster_a_blend_g_rough.tga
 !metal/hr_metal/inferno/metal_ground_trim_ao.tga
 !models/props/de_inferno/hr_i/concrete_bags/concrete_bags_ao-1.tga
@@ -226,6 +234,8 @@
 !brick/hr_brick/inferno/brick_f_rough.tga
 !brick/hr_brick/inferno/brick_g_blend_rough.tga
 !brick/hr_brick/inferno/brick_g_blend_ao.tga
+!brick/hr_brick/inferno/flagstone_d_rough.tga
+!materials/concrete/hr_c/hr_conc_d_rough.tga
 !de_inferno.vpost
 !models/props/de_inferno/hr_i/brick_corner_b/brick_f.vmat
 !brick/hr_brick/inferno/brick_g1_cheap.vmat
