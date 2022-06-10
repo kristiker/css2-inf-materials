@@ -22,10 +22,10 @@ Layer0
 	TextureMask "materials/brick/hr_brick/inferno/flagstone_d_blend_g_mask.tga"
 
 	//---- Material A ----
-	g_flMetalnessA "0.175"
+	g_flMetalnessA "0.000"
 	TextureColorA "materials/brick/hr_brick/inferno/flagstone_d.tga"
 	TextureNormalA "materials/brick/hr_brick/inferno/flagstone_d_normals.tga"
-	TextureRoughnessA "materials/default/default_rough_s1import.tga"
+	TextureRoughnessA "materials/brick/hr_brick/inferno/flagstone_d_rough.tga"
 
 	//---- Material B ----
 	g_flMetalnessB "0.000"

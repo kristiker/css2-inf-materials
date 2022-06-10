@@ -5,4 +5,6 @@ cobblestone/hr_c/inferno/cobblestone_b_rough.tga
 cobblestone/hr_c/inferno/cobblestone_a_rough.tga
 cobblestone/hr_c/inferno/cobblestone_a_ao.tga
 brick/hr_brick/inferno/brick_i_rough.tga
+brick/hr_brick/inferno/brick_f_rough.tga
+brick/hr_brick/inferno/flagstone_d_rough.tga
 de_inferno.vpost
