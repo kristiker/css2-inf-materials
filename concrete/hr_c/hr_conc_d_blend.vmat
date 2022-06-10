@@ -25,7 +25,7 @@ Layer0
 	g_flMetalnessA "0.000"
 	TextureColorA "materials/concrete/hr_c/hr_conc_d.tga"
 	TextureNormalA "materials/concrete/hr_c/hr_conc_d_normals.tga"
-	TextureRoughnessA "materials/default/default_rough_s1import.tga"
+	TextureRoughnessA "materials/concrete/hr_c/hr_conc_d_rough.tga"
 
 	//---- Material B ----
 	g_flMetalnessB "0.194"

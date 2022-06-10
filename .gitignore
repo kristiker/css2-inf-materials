@@ -214,6 +214,7 @@
 !models/props_foliage/urban_trees_barks01.txt
 !concrete/hr_c/hr_conc_d_blend.vmat
 !brick/hr_brick/inferno/brick_i.vmat
+!concrete/hr_c/hr_conc_d.vmat
 !plaster/hr_p/inferno/plaster_a_blend_g_rough.tga
 !metal/hr_metal/inferno/metal_ground_trim_ao.tga
 !models/props/de_inferno/hr_i/concrete_bags/concrete_bags_ao-1.tga
