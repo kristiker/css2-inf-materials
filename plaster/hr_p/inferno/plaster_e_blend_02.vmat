@@ -32,7 +32,7 @@ Layer0
 	g_vTexCoordScale2 "[1.000 1.000]"
 	TextureColorB "materials/brick/hr_brick/inferno/brick_i.tga"
 	TextureNormalB "materials/brick/hr_brick/inferno/brick_i_normals.tga"
-	TextureRoughnessB "[1.000000 1.000000 0.501961 0.000000]"
+	TextureRoughnessB "materials/brick/hr_brick/inferno/brick_i_rough.tga"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
