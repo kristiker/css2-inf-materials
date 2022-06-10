@@ -10,5 +10,5 @@ brick/hr_brick/inferno/brick_f_rough.tga
 brick/hr_brick/inferno/brick_g_blend_rough.tga
 brick/hr_brick/inferno/brick_g_blend_ao.tga
 brick/hr_brick/inferno/flagstone_d_rough.tga
-materials/concrete/hr_c/hr_conc_d_rough.tga
+concrete/hr_c/hr_conc_d_rough.tga
 de_inferno.vpost
