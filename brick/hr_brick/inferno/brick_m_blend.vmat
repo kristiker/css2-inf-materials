@@ -4,9 +4,6 @@ Layer0
 {
 	shader "vr_simple_2way_blend.vfx"
 
-	//---- Enable Ambient Occlusion ----
-	F_ENABLE_AMBIENT_OCCLUSION 1
-
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
@@ -26,18 +23,16 @@ Layer0
 
 	//---- Material A ----
 	g_flMetalnessA "0.000"
-	TextureAmbientOcclusionA "materials/brick/hr_brick/inferno/brick_g_blend_ao.tga"
-	TextureColorA "materials/brick/hr_brick/inferno/brick_g1.tga"
-	TextureNormalA "materials/brick/hr_brick/inferno/brick_g_normals.tga"
-	TextureRoughnessA "materials/brick/hr_brick/inferno/brick_g_blend_rough.tga"
+	TextureColorA "materials/brick/hr_brick/inferno/brick_m.tga"
+	TextureNormalA "materials/brick/hr_brick/inferno/brick_m_normals.tga"
+	TextureRoughnessA "materials/default/default_rough_s1import.tga"
 
 	//---- Material B ----
 	g_flMetalnessB "0.000"
 	g_vTexCoordScale2 "[1.000 1.000]"
-	TextureAmbientOcclusionB "materials/brick/hr_brick/inferno/brick_g_blend_ao.tga"
-	TextureColorB "materials/brick/hr_brick/inferno/brick_g.tga"
-	TextureNormalB "materials/brick/hr_brick/inferno/brick_g_normals.tga"
-	TextureRoughnessB "materials/brick/hr_brick/inferno/brick_g_blend_rough.tga"
+	TextureColorB "materials/concrete/hr_c/hr_conc_d.tga"
+	TextureNormalB "materials/concrete/hr_c/hr_conc_d_normals.tga"
+	TextureRoughnessB "materials/concrete/hr_c/hr_conc_d_rough.tga"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
