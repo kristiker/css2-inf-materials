@@ -263,6 +263,7 @@
 !models/props/de_inferno/hr_i/wine_crate_a/metal.vmat
 !models/props/de_inferno/hr_i/wood_beam_a/metal_a.vmat
 !models/props/de_inferno/hr_i/stone_trim_b/stone_trim_b_ao.txt
+!decals/hr_decals/large_stain_a.vmat
 !plaster/hr_p/inferno/plaster_a_blend_g_rough.tga
 !metal/hr_metal/inferno/metal_ground_trim_ao.tga
 !models/props/de_inferno/hr_i/concrete_bags/concrete_bags_ao-1.tga
@@ -278,4 +279,5 @@
 !brick/hr_brick/inferno/brick_g_blend_ao.tga
 !brick/hr_brick/inferno/flagstone_d_rough.tga
 !concrete/hr_c/hr_conc_d_rough.tga
+!decals/inferno_drain_decal_ao.tga
 !de_inferno.vpost

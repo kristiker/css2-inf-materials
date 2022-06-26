@@ -5,12 +5,12 @@ Layer0
 	shader "vr_complex.vfx"
 
 	//---- Detail Texture ----
-	F_DETAIL_TEXTURE 1 // Mod2X
+	F_DETAIL_TEXTURE 2 // Overlay
 
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionDirectDiffuse "0.000"
 	g_flAmbientOcclusionDirectSpecular "0.000"
-	TextureAmbientOcclusion "materials/default/default_ao.tga"
+	TextureAmbientOcclusion "materials/models/props/de_inferno/hr_i/stone_trim_b/stone_trim_b_ao.tga"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
@@ -22,8 +22,8 @@ Layer0
 	g_flDetailBlendToFull "0.000"
 	g_flDetailTexCoordRotation "0.000"
 	g_vDetailTexCoordOffset "[0.000 0.000]"
-	g_vDetailTexCoordScale "[1.000 1.000]"
-	TextureDetail "materials/models/props/de_inferno/hr_i/stone_trim_b/stone_trim_b_ao.tga"
+	g_vDetailTexCoordScale "[8.000 8.000]"
+	TextureDetail "materials/concrete/hr_c/hr_concrete_polished_001_detail.tga"
 	TextureDetailMask "materials/default/default_detailmask.tga"
 
 	//---- Fade ----
@@ -37,19 +37,19 @@ Layer0
 	g_flDirectionalLightmapStrength "1.000"
 
 	//---- Metalness ----
-	g_flMetalness "0.000"
+	g_flMetalness "0.048"
 
 	//---- Normal ----
 	TextureNormal "materials/models/props/de_inferno/hr_i/stone_trim_b/stone_trim_b_normals.tga"
 
 	//---- Roughness ----
-	TextureRoughness "materials/default/default_rough.tga"
+	TextureRoughness "materials/concrete/conc_map-ssbump_a-1_rough.tga"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
 	g_nScaleTexCoordVByModelScaleAxis "0"
 	g_vTexCoordOffset "[1.000 1.000]"
-	g_vTexCoordScale "[2.000 2.000]"
+	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
 
 	SystemAttributes

@@ -5,18 +5,18 @@ Layer0
 	shader "vr_static_overlay.vfx"
 
 	//---- Blend Mode ----
-	F_BLEND_MODE 1 // Translucent
+	F_BLEND_MODE 5 // Multiply
 
 	//---- Lit ----
 	F_LIT 1
 
 	//---- Ambient Occlusion ----
-	TextureAmbientOcclusion "materials/decals/inferno_drain_decal_ao.tga"
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "materials/decals/inferno_drain_decal.tga"
+	TextureColor "materials/decals/hr_decals/large_stain_a.tga"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -29,13 +29,13 @@ Layer0
 	g_flDirectionalLightmapStrength "1.000"
 
 	//---- Metalness ----
-	g_flMetalness "0.044"
+	g_flMetalness "0.000"
 
 	//---- Normal ----
 	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Roughness ----
-	TextureRoughness "materials/concrete/conc_map-ssbump_a-1_rough.tga"
+	TextureRoughness "materials/default/default_rough.tga"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
@@ -46,5 +46,5 @@ Layer0
 
 	//---- Translucent ----
 	g_flOpacityScale "1.000"
-	TextureTranslucency "materials/decals/inferno_drain_decal_a_trans.tga"
+	TextureTranslucency "materials/decals/hr_decals/large_stain_a_a_trans.tga"
 }
