@@ -54,6 +54,6 @@ Layer0
 
 	SystemAttributes
 	{
-		PhysicsSurfaceProperties "wood"
+		PhysicsSurfaceProperties "world.wood_solid"
 	}
 }

@@ -58,6 +58,6 @@ Layer0
 
 	SystemAttributes
 	{
-		PhysicsSurfaceProperties "metalvehicle"
+		PhysicsSurfaceProperties "prop.metal_vent"
 	}
 }

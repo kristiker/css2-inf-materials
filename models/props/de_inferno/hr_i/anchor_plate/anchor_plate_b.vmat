@@ -57,6 +57,6 @@ Layer0
 
 	SystemAttributes
 	{
-		PhysicsSurfaceProperties "Metal"
+		PhysicsSurfaceProperties "prop.metal"
 	}
 }

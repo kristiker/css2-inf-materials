@@ -54,6 +54,6 @@ Layer0
 
 	SystemAttributes
 	{
-		PhysicsSurfaceProperties "plaster"
+		PhysicsSurfaceProperties "world.plaster"
 	}
 }

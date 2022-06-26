@@ -37,6 +37,6 @@ Layer0
 
 	SystemAttributes
 	{
-		PhysicsSurfaceProperties "tile"
+		PhysicsSurfaceProperties "world.tile_floor"
 	}
 }

@@ -43,6 +43,6 @@ Layer0
 
 	SystemAttributes
 	{
-		PhysicsSurfaceProperties "rock"
+		PhysicsSurfaceProperties "world.rock"
 	}
 }

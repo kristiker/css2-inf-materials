@@ -48,6 +48,6 @@ Layer0
 
 	SystemAttributes
 	{
-		PhysicsSurfaceProperties "concrete"
+		PhysicsSurfaceProperties "world.concrete"
 	}
 }

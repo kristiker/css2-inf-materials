@@ -42,6 +42,6 @@ Layer0
 
 	SystemAttributes
 	{
-		PhysicsSurfaceProperties "brick"
+		PhysicsSurfaceProperties "prop.brick"
 	}
 }

@@ -72,6 +72,6 @@ Layer0
 
 	SystemAttributes
 	{
-		PhysicsSurfaceProperties "wood"
+		PhysicsSurfaceProperties "prop.wood_gib"
 	}
 }

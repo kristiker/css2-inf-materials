@@ -56,6 +56,6 @@ Layer0
 
 	SystemAttributes
 	{
-		PhysicsSurfaceProperties "water"
+		PhysicsSurfaceProperties "world.water"
 	}
 }

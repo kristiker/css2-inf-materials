@@ -65,6 +65,6 @@ Layer0
 
 	SystemAttributes
 	{
-		PhysicsSurfaceProperties "glass"
+		PhysicsSurfaceProperties "world.glass"
 	}
 }
