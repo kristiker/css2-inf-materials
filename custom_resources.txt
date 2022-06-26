@@ -2,6 +2,7 @@ plaster/hr_p/inferno/plaster_a_blend_g_rough.tga
 metal/hr_metal/inferno/metal_ground_trim_ao.tga
 models/props/de_inferno/hr_i/concrete_bags/concrete_bags_ao-1.tga
 models/props/coop_cementplant/furniture/coop_wooden_table_color_a_rough.tga
+models/props/de_inferno/hr_i/lily_pad/lily_pad_rough.tga
 cobblestone/hr_c/inferno/cobblestone_b_rough.tga
 cobblestone/hr_c/inferno/cobblestone_b_ao.tga
 cobblestone/hr_c/inferno/cobblestone_a_rough.tga
