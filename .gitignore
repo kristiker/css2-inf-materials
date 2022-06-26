@@ -110,7 +110,6 @@
 !models/weapons/v_models/rif_ak47/ak47.vmat
 !models/weapons/v_models/snip_awp/awp.vmat
 !models/weapons/w_models/arms/w_ct_fbi_glove.vmat
-!overlays/csmenuscreen.vmat
 !plaster/hr_p/plaster_a.vmat
 !plaster/hr_p/inferno/plaster_a.vmat
 !plaster/hr_p/inferno/plaster_a_blend.vmat
@@ -228,6 +227,10 @@
 !models/props/de_inferno/hr_i/missile/missile_02_color.vmat
 !models/props_c17/potspans001a.vmat
 !models/props_c17/potspans001a.txt
+!models/props/de_inferno/bomb_tanks.vmat
+!models/props/de_inferno/hr_i/fountain_a/fountain_a_water.vmat
+!models/props/de_inferno/bomb_tanks.txt
+!models/props/de_inferno/hr_i/inferno_circular_window/inferno_circular_window_mask_l-1_rough.txt
 !plaster/hr_p/inferno/plaster_a_blend_g_rough.tga
 !metal/hr_metal/inferno/metal_ground_trim_ao.tga
 !models/props/de_inferno/hr_i/concrete_bags/concrete_bags_ao-1.tga

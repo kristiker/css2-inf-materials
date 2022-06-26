@@ -2,23 +2,15 @@
 
 Layer0
 {
-	shader "vr_complex.vfx"
-
-	//---- PBR ----
-	F_SPECULAR 1
-
-	//---- Translucent ----
-	F_ALPHA_TEST 1
+	shader "vr_simple.vfx"
 
 	//---- Ambient Occlusion ----
-	g_flAmbientOcclusionDirectDiffuse "0.000"
-	g_flAmbientOcclusionDirectSpecular "0.000"
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "materials/models/props/de_inferno/hr_i/inferno_door_bell/inferno_door_bell_color.tga"
+	TextureColor "materials/models/props/de_inferno/hr_i/inferno_circular_window/inferno_circular_window_color.tga"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -30,13 +22,11 @@ Layer0
 	g_flDirectionalLightmapMinZ "0.050"
 	g_flDirectionalLightmapStrength "1.000"
 
-	//---- Metalness ----
-
 	//---- Normal ----
 	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Roughness ----
-	TextureRoughness "materials/models/props/de_inferno/hr_i/inferno_door_bell/inferno_door_bell_mask_l-1_rough.tga"
+	TextureRoughness "materials/models/props/de_inferno/hr_i/inferno_circular_window/inferno_circular_window_mask_l-1_rough.tga"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
@@ -44,11 +34,6 @@ Layer0
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
-
-	//---- Translucent ----
-	g_flAlphaTestReference "0.300"
-	g_flAntiAliasedEdgeStrength "1.000"
-	TextureTranslucency "materials/models/props/de_inferno/hr_i/inferno_door_bell/inferno_door_bell_color_a_trans.tga"
 
 	SystemAttributes
 	{
