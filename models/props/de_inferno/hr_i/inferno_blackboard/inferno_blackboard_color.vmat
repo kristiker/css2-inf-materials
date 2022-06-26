@@ -7,9 +7,6 @@ Layer0
 	//---- Color ----
 	F_TINT_MASK 1
 
-	//---- Detail Texture ----
-	F_DETAIL_TEXTURE 1 // Mod2X
-
 	//---- PBR ----
 	F_METALNESS_TEXTURE 1
 	F_SPECULAR 1
@@ -22,17 +19,8 @@ Layer0
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "materials/models/props/de_inferno/hr_i/inferno_bike/inferno_bike_color.tga"
-	TextureTintMask "materials/models/props/de_inferno/hr_i/inferno_bike/inferno_bike_color_a_mask.tga"
-
-	//---- Detail Texture ----
-	g_flDetailBlendFactor "0.800"
-	g_flDetailBlendToFull "0.000"
-	g_flDetailTexCoordRotation "0.000"
-	g_vDetailTexCoordOffset "[0.000 0.000]"
-	g_vDetailTexCoordScale "[4.000 4.000]"
-	TextureDetail "materials/models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail.tga"
-	TextureDetailMask "materials/default/default_detailmask.tga"
+	TextureColor "materials/models/props/de_inferno/hr_i/inferno_blackboard/inferno_blackboard_color.tga"
+	TextureTintMask "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -45,13 +33,13 @@ Layer0
 	g_flDirectionalLightmapStrength "1.000"
 
 	//---- Metalness ----
-	TextureMetalness "materials/models/props/de_inferno/hr_i/inferno_bike/inferno_bike_mask.tga"
+	TextureMetalness "materials/models/props/de_inferno/hr_i/inferno_blackboard/inferno_blackboard_mask.tga"
 
 	//---- Normal ----
 	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Roughness ----
-	TextureRoughness "materials/models/props/de_inferno/hr_i/inferno_bike/inferno_bike_mask_l-1_rough.tga"
+	TextureRoughness "materials/models/props/de_inferno/hr_i/inferno_blackboard/inferno_blackboard_mask_l-1_rough.tga"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
@@ -62,6 +50,6 @@ Layer0
 
 	SystemAttributes
 	{
-		PhysicsSurfaceProperties "prop.metal"
+		PhysicsSurfaceProperties "prop.wood_gib"
 	}
 }
