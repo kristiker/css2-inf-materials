@@ -2,6 +2,4 @@
 run this to exclude tweaked .vmats and .txt from gitignore
  gitinclude-changes.py
 
-add custom resources
- git add -f my/file.tga
- git add -f my/file.vmat
+add custom resources to custom_resources.txt so that can be tracked in git
